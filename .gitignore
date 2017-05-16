@@ -1,0 +1,8 @@
+# virtualenv
+/denv/
+
+# intermediary
+*.pyc
+*.swp
+
+
