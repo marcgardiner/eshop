@@ -7,3 +7,7 @@
 
 # IDE
 .idea/
+
+# DB and migrations
+db.sqlite3
+/shop/migrations/
