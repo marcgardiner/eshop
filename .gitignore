@@ -11,6 +11,7 @@
 # DB and migrations
 db.sqlite3
 /shop/migrations/
+/cart/migrations/
 
 # dev server media
 /media/
