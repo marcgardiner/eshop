@@ -112,5 +112,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 CART_SESSION_ID = 'cart'
 
-PAYPAL_RECEIVER_EMAIL = 'admin@eshop.com'
+PAYPAL_RECEIVER_EMAIL = 'servicemanager3386@yandex.com'
 PAYPAL_TEST = True
