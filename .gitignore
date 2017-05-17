@@ -14,6 +14,7 @@ db.sqlite3
 /cart/migrations/
 /orders/migrations/
 /payment/migrations/
+/coupons/migrations/
 
 # dev server media
 /media/
