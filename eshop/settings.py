@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'paypal.standard.ipn',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -109,3 +110,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 CART_SESSION_ID = 'cart'
+
+PAYPAL_RECEIVER_EMAIL = 'admin@eshop.com'
+PAYPAL_TEST = True
