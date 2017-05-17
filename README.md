@@ -3,6 +3,7 @@
 Here is some more detailed information about the scripts I have written.
 If you would like to make any comments then please feel free to email me at servicemanager@easy.com.
 
+Building application:
 - Shop based on Django 1.8.6
 - Pillow library
 - Asynchronous and distributed task queue: Celery 3.1.18
@@ -18,4 +19,12 @@ If you would like to make any comments then please feel free to email me at serv
                 browsing http://ipaddr:15672/
                     credential info: guest/guest
 
-
+DevOps
+- Continuous Integration
+    Circle CI service
+- Deployment
+    Development Server
+        Docker virtual machine
+        Docker container
+    Production Server
+        Amazon Web Service as SaaS
