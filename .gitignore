@@ -13,6 +13,7 @@ db.sqlite3
 /shop/migrations/
 /cart/migrations/
 /orders/migrations/
+/payment/migrations/
 
 # dev server media
 /media/
