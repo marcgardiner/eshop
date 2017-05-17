@@ -6,6 +6,9 @@ If you would like to make any comments then please feel free to email me at serv
 Building application:
 - Shop based on Django 1.8.6
 - Pillow library
+- Payment integration with PayPal
+- PDF generation library: WeasyPrint
+- HTML5lib Library
 - Asynchronous and distributed task queue: Celery 3.1.18
 - Monitoring Celery Flower
     as a note:  in terminal
