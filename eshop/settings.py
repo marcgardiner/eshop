@@ -47,6 +47,7 @@ INSTALLED_APPS = (
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -92,7 +93,18 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
+from django.utils.translation import gettext_lazy as _
+
 LANGUAGE_CODE = 'en-us'
+
+LANGUAGES = (
+    ('en', _('English')),
+    ('es', _('Spanish')),
+)
+
+USE_I18N = True
+
+USE_L10N = True
 
 TIME_ZONE = 'UTC'
 
@@ -116,3 +128,7 @@ CART_SESSION_ID = 'cart'
 
 PAYPAL_RECEIVER_EMAIL = 'servicemanager3386@yandex.com'
 PAYPAL_TEST = True
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
