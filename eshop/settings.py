@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'coupons',
     'paypal.standard.ipn',
     'payment',
+    'rosetta',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
