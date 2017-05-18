@@ -9,6 +9,7 @@ Building application:
 - Payment integration with PayPal
 - PDF generation library: WeasyPrint
 - HTML5lib Library
+- Rosetta multilingual library
 - Asynchronous and distributed task queue: Celery 3.1.18
 - Monitoring Celery Flower
     as a note:  in terminal
