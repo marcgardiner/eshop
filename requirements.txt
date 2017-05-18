@@ -5,3 +5,5 @@ django-paypal==0.2.5
 html5lib==1.0b10
 WeasyPrint==0.36
 django-rosetta==0.7.6
+django-parler==1.5.1
+redis==2.10.3

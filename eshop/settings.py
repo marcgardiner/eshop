@@ -133,3 +133,7 @@ PAYPAL_TEST = True
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale/'),
 )
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1

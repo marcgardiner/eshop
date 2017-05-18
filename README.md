@@ -22,6 +22,7 @@ Building application:
                 rabbitmq-plugins enable rabbitmq_management
                 browsing http://ipaddr:15672/
                     credential info: guest/guest
+- In-Memory DB: Redis 2.10.3
 
 DevOps
 - Continuous Integration
